@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <form class="form-inline filter">
+    <div class="form-group">
+      <label>Filter by</label>
+      <input type="text" name="accession-no" placeholder="Accession Number">
+    </div>
+    <div class="form-group">
+      <input type="text" name="Patient Name" placeholder="Patient Name">
+    </div>
+    <div class="form-group">
+      <input type="date" name="from-start-date" placeholder="From Start Date">
+    </div>
+    <div class="form-group">
+      <label>&nbsp;-</label>
+      <input type="date" name="to-end-date" placeholder="To End Date">
+    </div>
+    <div class="form-group">
+      <select class="form-control" name="status" placeholder="select status">
+        <option value="all urgencies">All Urgencies</option>
+        <option value="emergency">Emeergency</option>
+        <option value="routine">Routine</option>
+        <option value="on scheduled date">On Scheduled Date</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <table class="table table-striped table-bordered table-condensed crawler-table">
+    <thead class="head">
+    <tr>
+      <th>S/N</th>
+      <th>Patient</th>
+      <th>Order</th>
+      <th>Imagine Procedure</th>
+      <th>Ref Physician</th>
+      <th>Scheduled Date</th>
+      <th>Activated</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>

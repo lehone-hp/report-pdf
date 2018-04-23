@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+.head,
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover{
+  background-color: #f78c44;
+  color: #ffffff;
+  border-color:transparent;
+
+}
+
+.filter {
+  margin: 25px 0px 10px 0px;
+}
+
+/* unvisited link */
+a:link {
+  color: #f78c44;
+}
+
+/* mouse over link */
+a:hover, a:visited, a:active {
+  color: #f78c44;
+  opacity: 0.9;
+}

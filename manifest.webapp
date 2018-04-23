@@ -1,0 +1,21 @@
+{
+    "version": "0.1",
+    "name": "Print Reports",
+    "description": "My App is a Packaged App",
+    "launch_path": "index.html",
+    "icons": {
+        "16": "favicon.ico",
+        "48": "favicon.ico",
+        "128": "favicon.ico"
+    },
+    "developer": {
+        "name": "Me",
+        "url": "http://me.com"
+    },
+    "default_locale": "en",
+    "activities": {
+        "openmrs": {
+            "href": "*"
+        }
+    }
+}
